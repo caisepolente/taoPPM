@@ -4,6 +4,5 @@ permalink: ':title'
 highlighter: true
 safe: false
 title: 'taoPPM'
-markdown:
-  input: GFM
+markdown: kramdown
 
