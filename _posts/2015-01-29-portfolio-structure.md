@@ -15,11 +15,14 @@ This method allows users to retrieve stuff.
 
 Sends back a collection of things.
 
- | Tables        | Are           | Cool  |
- | ------------- |:-------------:| -----:|
- | col 3 is      | right-aligned | $1600 |
- | col 2 is      | centered      |   $12 |
- | zebra stripes | are neat      |    $1 |
+ | Header1 | Header2 | Header3 |
+ |:--------|:-------:|--------:|
+ | cell1   | cell2   | cell3   |
+ | cell4   | cell5   | cell6   |
+ |:--------|:-------:|--------:|
+ | cell1   | cell2   | cell3   |
+ | cell4   | cell5   | cell6   |
+ 
 
 ```Status: 200 OK```
 ```{
