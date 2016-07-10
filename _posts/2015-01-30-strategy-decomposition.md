@@ -1,10 +1,8 @@
 ---
-category: Stuff
-path: '/stuff'
-title: 'Get stuff'
-type: 'GET'
+category: Definition
+path: '/definition'
+title: 'Strategy decomposition'
 
-layout: nil
 ---
 
 This method allows users to retrieve stuff.
