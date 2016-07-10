@@ -9,7 +9,7 @@
     padding-bottom: 60px;
     color: white;
     text-shadow: black 1em 1em 1em;
-    max-width: 700px;
+    max-width: 980px;
 }
 
 
@@ -453,8 +453,10 @@ code {
 
 /* SIDEBAR */
 #sidebar {
-  background: #191919;
-  color: #fff;
+  /*background: #191919;*/
+  /*color: #fff;*/
+    background: lightgrey;
+    color: black;
   float: left;
   height: 100%;
   overflow: auto;
@@ -472,8 +474,10 @@ code {
 }
 
 #sidebar h2 {
-  color: #888;
+  /*color: #888;*/
+    color: black;
   font-size: 14px;
+    font-style: italic; /* My setting */
   margin: 0;
 }
 
@@ -492,7 +496,8 @@ code {
 }
 
 #sidebar ul li a {
-  color: #fff;
+  /*color: #fff;*/
+    color: black;
   display: block;
   padding: 0 0 15px;
 }
@@ -502,7 +507,7 @@ code {
 }
 
 #sidebar input {
-  background: #111;
+  /*background: #111;*/
   border: 0;
   border-radius: 2px;
   -moz-border-radius: 2px;
@@ -510,7 +515,8 @@ code {
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.2);
-  color: #ddd;
+  /*color: #ddd;*/
+    color: black;
   margin-bottom: 20px;
   padding: 5px 10px;
 }
@@ -527,7 +533,7 @@ code {
 #content {
   padding: 20px;
   padding-left: 260px;
-  max-width: 700px;
+  max-width: 980px;
 }
 
 #content .control {
@@ -542,7 +548,8 @@ code {
 }
 
 #content article > a {
-  background: #333;
+  /*background: #333;*/
+    background: lightgrey;
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -551,12 +558,14 @@ code {
   padding: 15px;
 }
 #content article > a:hover {
-  background: #222;
+  /*background: #222;*/
+    background: grey;
   text-decoration: none;
 }
 
 #content a h2 {
-  color: #fff;
+  /*color: #fff;*/
+    color: black;
   font-size: 18px;
   font-weight: normal;
   margin: 0;

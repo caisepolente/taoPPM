@@ -3,4 +3,6 @@ exclude: ['README.markdown']
 permalink: ':title'
 highlighter: true
 safe: false
-title: 'Carte'
+title: 'taoPPM'
+kramdown:
+  input: GFM
