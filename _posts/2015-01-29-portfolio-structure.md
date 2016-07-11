@@ -5,35 +5,14 @@ title: 'Portfolios structure'
 
 ---
 
-This method allows users to retrieve stuff.
+If the strategy decomposition tree ensures that the work to be done has a strategic value,
+the portfolio decomposition structure ensures its delivery accountability.
+This accountability may follow the organization’s hierarchy, its functional lines and other business dimensions
+such as markets, geography or product categories.
 
-### Request
+Each identified project should be assigned to a portfolio. Portfolio can be categorized by _portfolio type_.
+A _portfolio manager_ heads a portfolio.
 
-* The headers must include a **valid authentication token**.
+_Fictitious example of portfolio structure:_
+![alt text](../images/def_portfolio_structure.png "Fictitious example of portfolio structure")
 
-### Response
-
-Sends back a collection of things.
-
- | Header1 | Header2 | Header3 |
- | --------| ------- |-------- |
- | cell1   | cell2   | cell3   |
- | cell4   | cell5   | cell6   |
- |:--------|:-------:|--------:|
- | cell1   | cell2   | cell3   |
- | cell4   | cell5   | cell6   |
- 
-
-```Status: 200 OK```
-```{
-    {
-        id: thing_1,
-        name: 'My first thing'
-    },
-    {
-        id: thing_2,
-        name: 'My second thing'
-    }
-}```
-
-For errors responses, see the [response status codes documentation](#response-status-codes).
