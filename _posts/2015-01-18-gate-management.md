@@ -1,11 +1,11 @@
 ---
 category: Delivery
 path: '/delivery'
-title: 'Gate management'
+title: 'Agile Gate Management'
 
 ---
 
-## Gate management process
+## Agile Gate Management process
 This gate process entails the definition of standard stage/gate management processes
 comprising predefined sequential management gates with expected project outcomes
 and gate performance data at each gate.
