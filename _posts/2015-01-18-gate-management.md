@@ -161,13 +161,14 @@ in absolute value or as a rate.
 Gate variances, that can also be _cumulative_ as the project progresses through the gates, are:
 
 + Baseline variances
-  + **Variance between estimate and baseline** = (baseline - estimate) / baseline
-  + **Variance between actual and baseline** = (baseline - actual) / baseline
+  + Variance between estimate and baseline = (baseline - estimate) / baseline
+  + Variance between actual and baseline = (baseline - actual) / baseline
+  
 + Budget variances
-  + **Variance between estimate and budget** = (budget - estimate) / budget
-  + **Variance between actual and budget** = (budget - actual) / budget
-  + **Variance between baseline and budget** = (budget - baseline) / budget
-  + **Variance between earmarked funds and budget** = (earmarked funds - budget) / budget
+  + Variance between estimate and budget = (budget - estimate) / budget
+  + Variance between actual and budget = (budget - actual) / budget
+  + Variance between baseline and budget = (budget - baseline) / budget
+  + Variance between earmarked funds and budget = (earmarked funds - budget) / budget
 
 In all the above _negative values mean that we are spending more (or taking longer, or producing more output) than what was originally targeted_.
 
