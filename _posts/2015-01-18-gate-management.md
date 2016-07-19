@@ -54,7 +54,7 @@ The taoPPM's "Agile Gate Management" approach wishes to bring back together this
 of the waterfall approach regarding management support and risk control with the need for a more personalized and agile
 delivery process of a specific project.
 
-## Agile Gate Management (AGM) manifesto
+## Agile Gate Management manifesto
 
 Agile Gate Management evolves the current general implementations of stage/gate approaches based on the following
 tenants:
@@ -70,7 +70,7 @@ aggregation for the project's activities either as an outcome of WBS (work break
 structure) analysis. Since gates mark the end of a stage (or the start in the case of project start gate), it
 became natural to have stages and gates that mirror a "most common" technical delivery process.
 
-AGM requires the shift from a stage (or phase) thinking to a pure gate view point. Breaking the reference between a
+Agile Gate Management requires the shift from a stage (or phase) thinking to a pure gate view point. Breaking the reference between a
 gate and any technical or specific project delivery phase helps in looking at gates as pure performance audit point
 for the project.
 
