@@ -74,15 +74,15 @@ AGM requires the shift from a stage (or phase) thinking to a pure gate view poin
 gate and any technical or specific project delivery phase helps in looking at gates as pure performance audit point
 for the project.
 
-Any projects should always have at least two gates: start and end.
+Any projects should always have at least two gates: **start** and **end**.
 
-Additional interim gates should be added at specific points in time in proportion to the need of stricter control.
+Additional **interim gates** should be added at specific points in time in proportion to the need of stricter control.
 However, more gates means also more costs in oversight activity, both for the governance controllers and the team
 having to achieve (and prove) adherence to the governance expectations of each gate.
 
 The number of intermediate gates between start and end should provide a balance between the extra overhead and the
 tighter controls. This can be achieved considering the following characteristics for each project:
-The key characteristics to consider are the project's:
+
 + Risk
 + Strategic importance and budget
 + Type
@@ -97,6 +97,7 @@ budget can be considered together. In practice, often budget finds widespread us
 The bigger and more strategically important a project is, the higher should be the number of gates.
 
 Different type of projects will need different technical implementation processes. For example:
+
 + A custom software development will be better served with a SCRUM approach
 + A packaged software implementation (especially for larger enterprise software vendors) will come bundled with a well
 defined and tried vendor methodology (e.g. ASAP method for SAP).
@@ -158,6 +159,7 @@ Variances are the _differences between estimates, baseline, actual and budget_. 
 in absolute value or as a rate.
 
 Gate variances, that can also be _cumulative_ as the project progresses through the gates, are:
+
 + Baseline variances
   + **Variance between estimate and baseline** = (baseline - estimate) / baseline
   + **Variance between actual and baseline** = (baseline - actual) / baseline
@@ -174,6 +176,7 @@ EVA is a way to provide a simpler answer the question "Is the project performanc
 
 This is because the only way to _fully_ answer such as question is to break down the question in its three components
 questions and answer each one of them separately at the same time:
+
 + "Are we spending as much as expected?"
 + "Are we taking as much time as expected?"
 + "Are we producing as much output as we expected?"
@@ -190,6 +193,7 @@ of what were our initial plans. Similarly, claiming that we are still on budget 
 planned amount of $ 100 for a floor is also not sufficient.
 
 Initially we could answer this question by providing three separate pieces of information:
+
 + We have almost completed a floor at 90%
 + We are at only half the time to what would be required to complete a floor
 + We spent $ 95 (against a budgeted amount of $ 100 for a full floor)
@@ -203,6 +207,7 @@ our question more precisely with also prediction capabilities.
 
 EVA applies the fundamental principle that the output completed has value equal to its agreed budget rather than the
 amount actually spent. This means that:
+
 + Since one floor was valued at $ 100 and we completed 90% of a floor, the value of our output is $ 90.
 This is called _earned value_.
 + Assuming a linear distribution of the output, since we are half way through the 6 months required to build 1 floor,
@@ -210,6 +215,7 @@ we would have expected to have built 50% of a floor, which is valued at $ 50 ($ 
 + However, the actual cost for the period was $ 95
 
 Now we are able to calculate the following EVA indicators:
+
 + Cost variance (CV) = Earned Value (EV) - Actual Cost (AC) = $90 - $95 = - $5 => We have an overspent of $5
 + Schedule Variance (SV) = Earned Value (EV) - Planned Value (PV) = $90 - $50 = + $50 => But we have overachieved
 the schedule by $50
@@ -219,14 +225,17 @@ to use the concept of _Earned Schedule_ (ES). To find this value we need to ask 
 if the planned value equaled the earned value. So, assuming a 30 days month, each day required to build a floor is valued
 at $ 100 / (6 * 30) = $ 0.555. Therefore, $90 would "buy" 90 / 0.555 = 162 days. This amount of 162 days is the
 earned schedule. Since we are now at 3 months (90 days), we can calculate the schedule variance in terms of days:
+
 + Schedule Variance in days (SVdays) = Earned Schedule (ES) - Actual Time (AT) = 162 - 90 = 72 days => We are 72 days
 ahead of schedule
 
 The _cost performance index_ will then tell us how efficiently we are using our funds:
+
 + Cost Performance Index (CPI) = EV / AC = $90 / $95 = 0.94 => Therefore we have a lower efficiency and we get
 only 94% of every dollar we put in our project
 
 The _schedule performance index_ (in days) tell us how efficient we are with the time provided:
+
 + Schedule Performance Index in days (SPIdays) = ES / AT = 162 / 90 = 1.8 => Therefore we have a higher time efficiency
 and every day we work we reduce the required schedule by 1.8 days instead of just 1
 + Schedule Performance Index in currency (SPI$) = EV / PV = $90 / $50 = 1.8 (Here this equals to the SPIdays because of
@@ -235,6 +244,7 @@ our simplified example but this not to be expected)
 Remembering that the _budget at completion_ (BAC) for our project to build both two floors was $200,  and that the
 _planned duration_ (PD) was 1 year (30 * 12 = 360 days), we are now in a position to
 make _future predictions about the final cost and the end date of our project_:
+
 + Estimate At Completion (EAC) = AC + ( (BAC - EV) / (CPI * SPI$) ) = $95 + ( ($200 - $90) / (0.94 * 1.8) ) = $160 =>
 With today's knowledge and assuming no changes in our efficiency, we will spend $40 less to complete our project
 than initially thought
