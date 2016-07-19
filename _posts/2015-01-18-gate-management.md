@@ -152,7 +152,7 @@ Budget assignment is a formal commitment that is usually made only later in the 
 the funded project has successfully passed the selection process. In earlier phases, such as during the definition
 phase of projects identification, it is common to identify only what could be a future _potential budget_ in the form
 of **earmarked funds**. This amount is usually based on very early educated guesses of project costs and sometimes they
-better describe the "desired" amount stakeholders wish to spend on an initiative.
+better describe the "desired" amount stakeholders wish to spend on an initiative rather than its potential cost.
 
 #### Variances
 Variances are the _differences between estimates, baseline, actual and budget_. These differences can be expressed both
