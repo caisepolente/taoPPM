@@ -190,7 +190,7 @@ After 3 months, we completed 90% 1st floor and spent $ 95. _Are we on track_?
 ```
 Just knowing that we took 3 months instead of closer to 6 to almost complete 1 floor is not sufficient to claim that we are ahead
 of what were our initial plans. Similarly, claiming that we are still on budget just because we have spent less than the
-planned amount of $ 100 for a floor is also not sufficient.
+planned amount of $100 is also not sufficient.
 
 Initially we could answer this question by providing three separate pieces of information:
 
@@ -202,17 +202,17 @@ With this articulated answer, we are now required to mentally workout the interr
 and decide if this is good or bad. Additionally, this information as it is now would make it very difficult to make
 predictions on the future.
 
-EVA puts together these separate pieces of information and works out their interrelations creating a framework to answer
-our question more precisely with also prediction capabilities.
+EVA puts together these separate pieces of information and works out their interrelations creating a framework to better
+and more precisely understand if we are on track.
 
 EVA applies the fundamental principle that the output completed has value equal to its agreed budget rather than the
 amount actually spent. This means that:
 
-+ Since one floor was valued at $ 100 and we completed 90% of a floor, the value of our output is $ 90.
++ Since one floor was valued at $100 and we completed 90% of a floor, the value of our output is 90% & $100 = $90.
 This is called _earned value_.
-+ Assuming a linear distribution of the output, since we are half way through the 6 months required to build 1 floor,
-we would have expected to have built 50% of a floor, which is valued at $ 50 ($ 100 * 50%). This is called _planned value_.
-+ However, the actual cost for the period was $ 95
++ Assuming a linear distribution of the output, since we are half way through the 6 months required to build a floor,
+we should now have built 50% of a floor, which is valued at $100 * 50% = $50. This is called _planned value_.
++ However, the actual cost for the period was $95
 
 Now we are able to calculate the following EVA indicators:
 
