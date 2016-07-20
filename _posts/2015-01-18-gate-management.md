@@ -116,38 +116,45 @@ output completion. Each dimension will have an estimate, a baseline and an actua
 ![alt text](../images/del_gate_performances.png "Gate performances review")
 
 #### Performance dimensions
-    ##### Time
+
+##### Time
+
 The time dimension is represented by the _gate dates_ and the time difference between any two consecutive gate dates,
 the sum of the latter will provide the project _duration_.
 
-    ##### Cost
+##### Cost
+
 The cost at each gate represents the cost sustained by the project between this gate and the previous gate.
 The start gate costs can be used to represent the costs that were sustained before formally starting the project.
 
-    ##### Completion
+##### Completion
+
 The amount of completion at each gate represents the amount of output completed between this gate and the previous gate.
 Although any unit of output can be chosen to represent the level of completion at each gate, this should be standardized
 within a project and across all projects to ensure correct comparability between project performances.
 An example of standardized unit of project output is the use of **function points**.
 
-#### Performances values
+#### Performance values
 
-   **Estimate**
+##### Estimate
 
 An estimate is the _expected value_ of a gate performance. Therefore it represents the most probable amount given the
 the most current information available. Since this may change overtime and should always be kept up-to-date by changing
 any current gate data with the latest expectations. At any given point in time, the current estimate for gate can also
 be thought of as its expected actual value with today's information.
 
-#### Baseline
+##### Baseline
+
 A baseline is the _agreed value_ for a gate performance. This will be used as the target against which appraise delivery
 performances. This therefore should be a firm value and should not change over time unless there is a change in the
 project mandate itself. A common example of why a baseline should be change is when the project scope objectively changes.
 
-#### Actual
+##### Actual
+
 The actual value of the performance is the value that has eventually happened.
 
 #### Budget
+
 A budget for a gate is the amount of _company's funds_ that have been formally assigned to that gate. The sum of all gate
 funds is the total _project budget_. This amount is usually based on the available estimates for the project at the time
 the funding decision is made and it is usually the amount captured in the company's financial records.
@@ -159,6 +166,7 @@ of **earmarked funds**. This amount is usually based on very early educated gues
 better describe the "desired" amount stakeholders wish to spend on an initiative rather than its potential cost.
 
 #### Variances
+
 Variances are the _differences between estimates, baseline, actual and budget_. These differences can be expressed both
 in absolute value or as a rate.
 
@@ -177,6 +185,7 @@ Gate variances, that can also be _cumulative_ as the project progresses through 
 In all the above _negative values mean that we are spending more (or taking longer, or producing more output) than what was originally targeted_.
 
 #### Earned Value Analysis (EVA)
+
 EVA is a way to provide a simpler answer the question "Is the project performances on track?".
 
 This is because the only way to _fully_ answer such as question is to break down the question in its three components
