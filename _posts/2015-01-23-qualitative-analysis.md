@@ -21,5 +21,6 @@ of averages and comparisons between projects. To this end, the scoring scale is 
 impact types and projects.
 
 _Example of qualitative impacts:_
+
 ![alt text](../images/eval_qualitative_impacts.png "Example of qualitative impacts")
 
