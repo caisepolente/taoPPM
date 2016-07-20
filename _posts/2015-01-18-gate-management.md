@@ -199,8 +199,10 @@ The answers to each of the above component questions must be _combined together_
 the project is on track. EVA tries to make this combination easier and more straightforward.
 
 ```
-Let's assume we expect to build a 2 floor house in 12 months, with each floor taking 6 months and costing $100 each.
-After 3 months, we completed 90% of the first floor and spent $95. Are we on track?
+
+Let's assume we expect to build a 2 floor house in 12 months, with each floor taking 6 months and costing $100 
+each. After 3 months, we completed 90% of the first floor and spent $95. Are we on track?
+
 ```
 Just knowing that we took 3 months instead of closer to 6 to almost complete 1 floor is not sufficient to claim that we are ahead
 of what were our initial plans. Similarly, claiming that we are still on budget just because we have spent less than the
