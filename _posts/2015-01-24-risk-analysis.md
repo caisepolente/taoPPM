@@ -16,4 +16,5 @@ These scales will be qualitative but a numerical amount should be assigned to al
 comparisons between projects.
 
 _Example of risk categories:_
+
 ![alt text](../images/eval_risk_categories.png "Example of risk categories")

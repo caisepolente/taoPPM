@@ -12,4 +12,5 @@ comparison or management.
 Within each _category_, project will have different _category values_. Multiple categories can be grouped in _category groups_.
 
 _Example of project categories:_
+
 ![alt text](../images/def_categories.png "Example of project categories")
