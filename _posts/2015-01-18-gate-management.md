@@ -110,26 +110,30 @@ delivery process is an important step in defining when and how many gates to hav
 
 ### Focus on project performances rather than activities
 
-![alt text](../images/del_gate_performances.png "Gate performances review")
-
 Each gate is defined by a set of performances. These performances cover the key dimensions of a project: time, cost and
 output completion. Each dimension will have an estimate, a baseline and an actual value.
 
-#### Time
+![alt text](../images/del_gate_performances.png "Gate performances review")
+
+#### Performance dimensions
+    ##### Time
 The time dimension is represented by the _gate dates_ and the time difference between any two consecutive gate dates,
 the sum of the latter will provide the project _duration_.
 
-#### Cost
+    ##### Cost
 The cost at each gate represents the cost sustained by the project between this gate and the previous gate.
 The start gate costs can be used to represent the costs that were sustained before formally starting the project.
 
-#### Completion
+    ##### Completion
 The amount of completion at each gate represents the amount of output completed between this gate and the previous gate.
 Although any unit of output can be chosen to represent the level of completion at each gate, this should be standardized
 within a project and across all projects to ensure correct comparability between project performances.
 An example of standardized unit of project output is the use of **function points**.
 
-#### Estimate
+#### Performances values
+
+   **Estimate**
+
 An estimate is the _expected value_ of a gate performance. Therefore it represents the most probable amount given the
 the most current information available. Since this may change overtime and should always be kept up-to-date by changing
 any current gate data with the latest expectations. At any given point in time, the current estimate for gate can also
