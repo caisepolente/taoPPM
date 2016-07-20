@@ -252,6 +252,20 @@ than initially thought
 + Estimate Duration (ED) = PD / SPIdays = 360 / 1.8 = 200 days => Therefore we will need 160 days less to complete
 the project than initially thought.
 
+#### Estimation accuracy
+
+One of the key objectives of mature project management organizations is the capability to delivery projects 
+_successfully_, _consistently_, and _predictably_.
+
+Predictability of projects, and consequently of the expenditures associated with them, is not important just from a 
+project management perspective but also from an operational perspective since it has a direct impact on the
+predictability of the company's cash-flows which is often an objective of most financial regulations.
+
+This requires a strong estimation process that can be continuously improved. Setting the performances baselines for 
+future gates at each gate and then comparing their variance against the actual values, allows the measurement of the 
+estimation accuracy and the setting of tolerances.
+
+![alt text](../images/del_gate_estimation_accuracy.png "Gate estimation accuracy")
 
 ### As many gate process models as projects
 
