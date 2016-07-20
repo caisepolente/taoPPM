@@ -186,8 +186,8 @@ The answers to each of the above component questions must be _combined together_
 the project is on track. EVA tries to make this combination easier and more straightforward.
 
 ```
-Let's assume we expected to build a 2 floor house in 12 months, with each floor taking 6 months and costing $ 100 each.
-After 3 months, we completed 90% 1st floor and spent $ 95. _Are we on track_?
+Let's assume we expect to build a 2 floor house in 12 months, with each floor taking 6 months and costing $100 each.
+After 3 months, we completed 90% of the first floor and spent $95. Are we on track?
 ```
 Just knowing that we took 3 months instead of closer to 6 to almost complete 1 floor is not sufficient to claim that we are ahead
 of what were our initial plans. Similarly, claiming that we are still on budget just because we have spent less than the
@@ -200,7 +200,7 @@ Initially we could answer this question by providing three separate pieces of in
 + We spent $ 95 (against a budgeted amount of $ 100 for a full floor)
 
 With this articulated answer, we are now required to mentally workout the interrelations between the different variables
-and decide if this is good or bad. Additionally, this information as it is now would make it very difficult to make
+and decide if this is good or bad. Additionally, this information as it stands now would make it very difficult to make
 predictions on the future.
 
 EVA puts together these separate pieces of information and works out their interrelations creating a framework to better
@@ -209,7 +209,7 @@ and more precisely understand if we are on track.
 EVA applies the fundamental principle that the output completed has value equal to its agreed budget rather than the
 amount actually spent. This means that:
 
-+ Since one floor was valued at $100 and we completed 90% of a floor, the value of our output is 90% & $100 = $90.
++ Since one floor was valued at $100 and we completed 90% of a floor, the value of our output is 90% * $100 = $90.
 This is called _earned value_.
 + Assuming a linear distribution of the output, since we are half way through the 6 months required to build a floor,
 we should now have built 50% of a floor, which is valued at $100 * 50% = $50. This is called _planned value_.
@@ -224,7 +224,7 @@ the schedule by $50
 Expressing variance in the schedule in terms of value ($) is counter-intuitive. A method to translate this into time is
 to use the concept of _Earned Schedule_ (ES). To find this value we need to ask ourselves where would we be in the schedule
 if the planned value equaled the earned value. So, assuming a 30 days month, each day required to build a floor is valued
-at $ 100 / (6 * 30) = $ 0.555. Therefore, $90 would "buy" 90 / 0.555 = 162 days. This amount of 162 days is the
+at $ 100 / (6 * 30) = $ 0.555. Therefore, $90 of earned value would "buy" 90 / 0.555 = 162 days. This amount of 162 days is the
 earned schedule. Since we are now at 3 months (90 days), we can calculate the schedule variance in terms of days:
 
 + Schedule Variance in days (SVdays) = Earned Schedule (ES) - Actual Time (AT) = 162 - 90 = 72 days => We are 72 days
@@ -257,9 +257,10 @@ the project than initially thought.
 One of the key objectives of mature project management organizations is the capability to delivery projects 
 _successfully_, _consistently_, and _predictably_.
 
-Predictability of projects, and consequently of the expenditures associated with them, is not important just from a 
-project management perspective but also from an operational perspective since it has a direct impact on the
-predictability of the company's cash-flows which is often an objective of most financial regulations.
+Predictability of projects, and consequently of the expenditures associated with them, is important not just from a 
+project management perspective but also from an operational perspective. Project predictability, especially for enterprises
+that are highly projectized, has a direct impact on the predictability of the company's cash-flows which is often 
+an objective of most financial regulations.
 
 This requires a strong estimation process that can be continuously improved. Setting the performances baselines for 
 future gates at each gate and then comparing their variance against the actual values, allows the measurement of the 
