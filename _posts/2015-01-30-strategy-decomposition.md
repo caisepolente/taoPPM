@@ -19,6 +19,7 @@ strategy node that best represents it. This facilitates decision making and may 
 the definition of the project or of the strategy node to achieve better  “mutually exclusive, completely inclusive” characteristics.
 
 _Example of strategy tree on three levels:_
+
 ![alt text](../images/def_strategy_decomposition.png "Example of strategy decomposition")
 
 
