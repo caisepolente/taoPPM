@@ -59,11 +59,11 @@ delivery process of a specific project.
 Agile Gate Management evolves the current general implementations of stage/gate approaches based on the following
 tenants:
 
-+ No more project phases but only performance gates
-+ Focus on project performances rather than activities
-+ As many gate process models as projects
+1. Gates instead of phases
+2. Project performances instead of activities
+3. As many gate processes as projects
 
-### No more project phases but only "performance gates"
+### 1. Gates instead of phases
 
 The terms stage and phase are in practice used interchangeably. Therefore they usually refer to the highest level of
 aggregation for the project's activities either as an outcome of WBS (work breakdown structure) or PBS (product breakdown
@@ -108,7 +108,7 @@ Considering gates and not phases does not mean disregarding what the best techni
 should be. Evaluating what is the best way to structure gates and their performances to support the actual technical
 delivery process is an important step in defining when and how many gates to have.
 
-### Focus on project performances rather than activities
+### 2. Project performances instead of activities
 
 Each gate is defined by a set of performances. These performances cover the key dimensions of a project: time, cost and
 output completion. Each dimension will have an estimate, a baseline and an actual value.
@@ -280,12 +280,12 @@ estimation accuracy and the setting of tolerances.
 
 ![alt text](../images/del_gate_estimation_accuracy.png "Gate estimation accuracy")
 
-### As many gate process models as projects
+### 3. As many gate processes as projects
 
-Agile Gate Management makes a separation between the gate process for portfolio management and the project
+Agile Gate Management separates the gate process for portfolio management from the project
 management delivery methodology. In many PMOs this is often not the case, and all projects are required to follow the
 same "standard" stage/gate methodology for the PMO to be able to aggregate project performances at portfolio level.
-Instead, gate performances as defined here, can be aggregated independently of the number of gates and of the
+Instead gate performances, as defined here, can be aggregated independently of the number of gates and of the
 underlying activities the project performs to arrive to a gate.
 
 This means that projects can now follow mandated best practices in terms of methodology and phases
@@ -308,4 +308,5 @@ Gate outcomes are evaluated by assigning **outcome scores** as part of the gate 
 be used to score the achievement of the gate overall and register its state (e.g. "approved" or "rejected").
 
 _Example of gate management process templates:_
+
 ![alt text](../images/del_gate_processes.png "Example of gate management process templates")
